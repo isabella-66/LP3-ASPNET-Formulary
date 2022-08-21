@@ -33,11 +33,6 @@ public class HomeController : Controller
         return $"Chegou aqui {q} e {nome}";
     }
 
-    // public string FormDataTest([FromForm] string name, [FromForm] string email) 
-    // {
-    //     return $"Nome: {name}, E-mail: {email}";
-    // }
-
     public IActionResult Formulary() 
     {
         return View();
@@ -45,7 +40,7 @@ public class HomeController : Controller
 
     public string FormDataTest([FromForm] UserRequest userRequest) 
     {
-        return $"Nome: {userRequest.Name}, E-mail: {userRequest.Email}";
+        return $"Nome: {userRequest.Name}, E-mail: {userRequest.Email}, Senha: {userRequest.Password}";
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
