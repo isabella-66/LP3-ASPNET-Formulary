@@ -14,7 +14,7 @@ public class MathOperationsController : Controller
         _logger = logger;
     }
 
-    public IActionResult Sum() 
+    public IActionResult Sum()
     {
         return View();
     }
@@ -24,6 +24,19 @@ public class MathOperationsController : Controller
         ViewBag.NumberOne = numberOne;
         ViewBag.NumberTwo = numberTwo;
         ViewBag.Result = numberOne + numberTwo;
+        return View();
+    }
+
+    public IActionResult Sub()
+    {
+        return View();
+    }
+
+    public IActionResult SubOperation([FromForm] double numberOne, [FromForm] double numberTwo) 
+    {
+        ViewBag.NumberOne = numberOne;
+        ViewBag.NumberTwo = numberTwo;
+        ViewBag.Result = numberOne - numberTwo;
         return View();
     }
 }

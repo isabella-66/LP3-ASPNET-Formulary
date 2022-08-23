@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Isabella\\Documents\\Ensino Médio - 3º ano\\LP3 331\\ASP NET\\LP3-ASPNETMVCExample\\ExemploAspNetMvc.csproj": {}
+    "/home/estudante/Documentos/SP3045463/LP3-ASPNET-Formulary/ExemploAspNetMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Isabella\\Documents\\Ensino Médio - 3º ano\\LP3 331\\ASP NET\\LP3-ASPNETMVCExample\\ExemploAspNetMvc.csproj": {
+    "/home/estudante/Documentos/SP3045463/LP3-ASPNET-Formulary/ExemploAspNetMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Isabella\\Documents\\Ensino Médio - 3º ano\\LP3 331\\ASP NET\\LP3-ASPNETMVCExample\\ExemploAspNetMvc.csproj",
+        "projectUniqueName": "/home/estudante/Documentos/SP3045463/LP3-ASPNET-Formulary/ExemploAspNetMvc.csproj",
         "projectName": "ExemploAspNetMvc",
-        "projectPath": "C:\\Users\\Isabella\\Documents\\Ensino Médio - 3º ano\\LP3 331\\ASP NET\\LP3-ASPNETMVCExample\\ExemploAspNetMvc.csproj",
-        "packagesPath": "C:\\Users\\Isabella\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Isabella\\Documents\\Ensino Médio - 3º ano\\LP3 331\\ASP NET\\LP3-ASPNETMVCExample\\obj\\",
+        "projectPath": "/home/estudante/Documentos/SP3045463/LP3-ASPNET-Formulary/ExemploAspNetMvc.csproj",
+        "packagesPath": "/home/estudante/.nuget/packages/",
+        "outputPath": "/home/estudante/Documentos/SP3045463/LP3-ASPNET-Formulary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Isabella\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/estudante/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -43,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
