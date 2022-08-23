@@ -16318,6 +16318,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Isabella\\Documents\\Ensino Médio - 3º ano\\LP3 331\\ASP NET\\LP3-ASPNETMVCExample\\Views\\MathOperations\\Sum.cshtml",
+      "TargetPath": "Views\\MathOperations\\Sum.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Isabella\\Documents\\Ensino Médio - 3º ano\\LP3 331\\ASP NET\\LP3-ASPNETMVCExample\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -16340,6 +16345,11 @@
     {
       "FilePath": "c:\\Users\\Isabella\\Documents\\Ensino Médio - 3º ano\\LP3 331\\ASP NET\\LP3-ASPNETMVCExample\\Views\\Home\\Formulary.cshtml",
       "TargetPath": "Views\\Home\\Formulary.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Isabella\\Documents\\Ensino Médio - 3º ano\\LP3 331\\ASP NET\\LP3-ASPNETMVCExample\\Views\\MathOperations\\SumOperation.cshtml",
+      "TargetPath": "Views\\MathOperations\\SumOperation.cshtml",
       "FileKind": "mvc"
     }
   ],

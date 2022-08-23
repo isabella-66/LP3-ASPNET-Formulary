@@ -3,16 +3,16 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Formulário de Cadastro</h1><br>
-    <p>Utilize o formulário para realizar a sua inscrição.</p>
+    <h1>Formulário de Cadastro</h1><br>
+    <p>Utilize o formulário abaixo para realizar a sua inscrição.</p><br><br>
 
     <form action="FormDataTest" method="post">
         <label for="name">Nome Completo</label>
-        <input type="text" name="name" id="name" pattern="^[^-\s][a-zA-ZÀ-ú ]{2,250}$" required><br><br>
+        <p><input type="text" name="name" id="name" pattern="^[^-\s][a-zA-ZÀ-ú ]{2,250}$" required></p>
         <label for="email">E-mail</label>
-        <input type="text" name="email" id="email" required><br><br>
+        <p><input type="text" name="email" id="email" required></p>
         <label for="password">Senha</label>
-        <input type="text" name="password" id="password" required><br><br>
+        <p><input type="text" name="password" id="password" required></p>
         <button type="submit">Enviar</button>
     </form>
 </div>

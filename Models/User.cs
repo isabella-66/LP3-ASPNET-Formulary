@@ -1,6 +1,6 @@
 namespace ExemploAspNetMvc.Models;
 
-public class UserRequest //objetos da classe representação de dados do usuário que vem na requisição
+public class UserRequest
 {
     public string Name { get; set; }
     public string Email { get; set; }
